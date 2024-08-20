@@ -6,4 +6,3 @@ def change():
     intchange= int((change - int(change))*100)
     print("\nVuelto")
     print (f"\nPesos:\n{int(change)}\nCentavos:\n{intchange}")
-change()
