@@ -1,9 +1,9 @@
 def change():
     expense = 23.75
     money = 100
-    spent= float(input("Ingresar gasto:\n"))
-    received= float(input("Dinero recibido\n"))
-    change= received - spent
+    print(f"Ingresar gasto:\n{expense}"))
+    print(f"Dinero recibido\n{money}"))
+    change= money - expense
     intchange= int((change - int(change)) * 100)
     print() 
     print("Vuelto")
