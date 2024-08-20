@@ -1,7 +1,7 @@
 def change():
-    spent= input("Ingresar gasto:\n")
-    received= input("Dinero recibido\n")
-    change= float(received) - float(spent)
+    spent= float(input("Ingresar gasto:\n"))
+    received= float(input("Dinero recibido\n"))
+    change= received - spent
     intchange= int((change - int(change)) * 100)
     print() 
     print("Vuelto")
