@@ -1,4 +1,6 @@
 def change():
+    expense = 23.75
+    money = 100
     spent= float(input("Ingresar gasto:\n"))
     received= float(input("Dinero recibido\n"))
     change= received - spent
